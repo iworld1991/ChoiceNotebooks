@@ -1,1 +1,1 @@
-# Notebooks for The Choice Course at JHU Econ 
+# Notebooks for the Choice Course at JHU Econ 
