@@ -1,0 +1,38 @@
+\documentclass{handout}
+\usepackage{handoutSetup}  
+\usepackage{import}
+
+\setboolean{SpaceBetweenAnswers}{true}  % If for an exam where students will be writing on the exam
+\setboolean{SpaceBetweenAnswers}{false} % If for a problem set or comprehensive exam where they will not be writing on the paper   
+
+%\setboolean{AnswersTF}{true}
+
+\begin{document}
+\thispagestyle{empty}
+
+\centerline{\Large Problem Set 6}\medskip
+\centerline{\large Intertemporal Choice}\medskip\medskip
+
+\label{qSub:aDiff} This problem set asks you to start with \href{https://lectures.quantecon.org/py/optgrowth.html}{Exercise 1} of the QuantEcon lecture on Stochastic Optimal Growth: \url{https://lectures.quantecon.org/py/optgrowth.html}. The original exercise is to simulate the models' dynamics for three different discount factors (hence three different policy rules). \\
+
+Modify the solution code to simulate 500 periods for each of the following cases (keeping all other parameters at their default values):
+		\begin{enumerate}
+			\item Capital's share of income
+			\begin{enumerate}
+				\item $\alpha$ = 0.1
+				\item $\alpha$ = 0.4
+				\item $\alpha$ = 0.7
+			\end{enumerate}
+			\item The coefficient of relative risk aversion.  (Hint: For the non-logarithmic utility case, you will need to start by redefining the utility function to be of the CRRA form rather than logarithmic)
+			\begin{enumerate}
+				\item $\rho$ = 1.0 (the baseline case)
+				\item $\rho$ = 2.0
+				\item $\rho$ = 5.0
+				\item $\rho$ = 20.0
+			\end{enumerate}
+		\end{enumerate}
+
+                For each of these cases, your goal is to estimate the average simulated capital stock levels for different values of the parameter ($\alpha$, or $\rho$). For each choice of the parameter value, you should estimate the `steady state` as the average value for simulations of the model from period 200 onward).
+
+
+\end{document}
