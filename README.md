@@ -6,3 +6,4 @@ The Homework folder includes drafts of notebooks to the following assignments:
 - HW2: OLG 
 - HW3: Time Aggregation Problem
 - HW4: Buffer Stock and Asset Pricing  
+- HW6: Stochastic Optimal Growth 
